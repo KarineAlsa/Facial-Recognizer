@@ -29,7 +29,7 @@ while True:
 
 
         if result[1] < 9:
-            cv2.putText(frame, "{}".format(image_path[result[0]]), (x,y-25), 2,1.1,(0,255,0),1,cv2.LINE_AA)
+            cv2.putText(frame, "yo", (x,y-25), 2,1.1,(0,255,0),1,cv2.LINE_AA)
             cv2.rectangle(frame,(x,y),(x+w ,y+h),(0,255,0),2)
         
     cv2.imshow('frame',frame)

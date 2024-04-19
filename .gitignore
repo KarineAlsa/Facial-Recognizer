@@ -1,2 +1,4 @@
 Data
 .DS_Store
+node_modules
+my_face_recognizer_model.xml
